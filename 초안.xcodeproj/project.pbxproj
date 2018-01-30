@@ -25,6 +25,9 @@
 		660F94F72005A84700EC1EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660F94F52005A84700EC1EB7 /* Main.storyboard */; };
 		660F94F92005A84700EC1EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660F94F82005A84700EC1EB7 /* Assets.xcassets */; };
 		660F94FC2005A84700EC1EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660F94FA2005A84700EC1EB7 /* LaunchScreen.storyboard */; };
+		66B1ABE2202019B5006B660F /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1ABE1202019B5006B660F /* Feed.swift */; };
+		66B1ABE4202019FA006B660F /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1ABE3202019FA006B660F /* Book.swift */; };
+		66B1ABE620201A42006B660F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1ABE520201A42006B660F /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		660F94F82005A84700EC1EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		660F94FB2005A84700EC1EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		660F94FD2005A84700EC1EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66B1ABE1202019B5006B660F /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		66B1ABE3202019FA006B660F /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		66B1ABE520201A42006B660F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,9 @@
 				660F94F82005A84700EC1EB7 /* Assets.xcassets */,
 				660F94FA2005A84700EC1EB7 /* LaunchScreen.storyboard */,
 				660F94FD2005A84700EC1EB7 /* Info.plist */,
+				66B1ABE1202019B5006B660F /* Feed.swift */,
+				66B1ABE3202019FA006B660F /* Book.swift */,
+				66B1ABE520201A42006B660F /* Person.swift */,
 			);
 			path = "초안";
 			sourceTree = "<group>";
@@ -190,14 +199,17 @@
 				1BD04EFD2008A2C400E5A903 /* RecordButton.swift in Sources */,
 				660F94F42005A84700EC1EB7 /* ViewController.swift in Sources */,
 				1BD04EFF2008A2C400E5A903 /* UIViewController+Navigation.swift in Sources */,
+				66B1ABE620201A42006B660F /* Person.swift in Sources */,
 				1BD04EFE2008A2C400E5A903 /* SwipeActionTableViewCell.swift in Sources */,
 				1BD04EF42008A2C400E5A903 /* CHControls.swift in Sources */,
+				66B1ABE2202019B5006B660F /* Feed.swift in Sources */,
 				660F94F22005A84700EC1EB7 /* AppDelegate.swift in Sources */,
 				1BD04EFA2008A2C400E5A903 /* DrawingCanvasView.swift in Sources */,
 				1BD04EF82008A2C400E5A903 /* CHTableViewControllers.swift in Sources */,
 				1BD04EF62008A2C400E5A903 /* CHPagingScrollViewController.swift in Sources */,
 				1BD04EF52008A2C400E5A903 /* CHModalViewController.swift in Sources */,
 				1BD04EF72008A2C400E5A903 /* CHPickerViewController.swift in Sources */,
+				66B1ABE4202019FA006B660F /* Book.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
