@@ -17,7 +17,6 @@ class Feed {
     var thought:String?
     var page:Int
     var lock:Bool
-    var numLikes:Int
     let time:Date
     
     init(person:Person, book:Book, image:UIImage, line:String, thought:String, page:Int, lock:Bool, time:Date) {
@@ -28,13 +27,11 @@ class Feed {
         self.thought = thought
         self.page = page
         self.lock = lock
-        self.numLikes = 0
         self.time = Date()
     }
     
     func likeByOther(person:Person) {
-        self.numLikes = self.numLikes + 1
-        // label.text="\(self.numLikes) people like this feed"
+        // 좋아요 누른 [person]에 없으면 추가, 있으면 아무 것도 안함 .
     }
     
     func toggleLock () {
